@@ -38,3 +38,8 @@ function checkdata(){
       //If all is well return true.
       return true;
 }
+
+function interestvalue(rate){
+    document.getElementById('interestvalue').innerHTML = rate.toString()+"%";
+
+}
