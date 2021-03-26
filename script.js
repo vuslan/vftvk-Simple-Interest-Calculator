@@ -29,7 +29,7 @@ function checkdata(){
       var principal = document.getElementById("principal");
 
       //Check if principal field is a positive value.
-      if(principal.value == "0" || Number(principal.value) < 0){
+      if(principal.value == "" || principal.value == "0" || Number(principal.value) < 0){
             alert("Please enter a positive number");
             principal.focus();
             return false;
